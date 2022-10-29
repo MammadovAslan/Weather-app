@@ -17,9 +17,7 @@ const resolve = (position) => {
       container.innerHTML = `
       <main>
       <div id="temp">
-      <p class="degrees">${`${Math.floor(
-        304 - resp.main.temp
-      )} <sup style="font-size:45px">o</sup>`}</p>
+      <p class="degrees">${`${Math.floor(304 - resp.main.temp)}<span>&#176;</span>`}</p>
         </div>
         <div id="location">
         <h3 id="city">${resp["name"]}</h3>
@@ -28,7 +26,7 @@ const resolve = (position) => {
         </main>
         <aside>
         <div id="details">
-        <h1>Weather Details</h1>
+        <h1>Details</h1>
         <p class="wind">${`Wind : ${resp.wind.speed} m/s`}</p>
         <p class="clouds">${`Cloudy : ${resp.clouds.all}%`}</p>
         <figure>
