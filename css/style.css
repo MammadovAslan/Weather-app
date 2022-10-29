@@ -8,9 +8,16 @@ html {
   height: 100%;
 }
 
-body {
-  background: rgb(19, 184, 246);
+.day {
   background: linear-gradient(180deg, rgb(19, 184, 246) 0%, rgb(92, 189, 221) 41%, rgb(123, 202, 207) 74%, rgb(243, 248, 249) 100%);
+}
+
+.sunset {
+  background: linear-gradient(180deg, rgb(158, 85, 39) 0%, rgb(214, 145, 66) 58%, rgb(210, 179, 149) 100%);
+}
+
+.night {
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(71, 69, 65) 68%, rgb(125, 124, 122) 100%);
 }
 
 .container {

@@ -8,14 +8,31 @@ html {
   height: 100%;
 }
 
-body {
-  background: rgb(19, 184, 246);
+.day {
   background: linear-gradient(
     180deg,
     rgba(19, 184, 246, 1) 0%,
     rgba(92, 189, 221, 1) 41%,
     rgba(123, 202, 207, 1) 74%,
     rgba(243, 248, 249, 1) 100%
+  );
+}
+
+.sunset {
+  background: linear-gradient(
+    180deg,
+    rgba(158, 85, 39, 1) 0%,
+    rgba(214, 145, 66, 1) 58%,
+    rgb(210, 179, 149) 100%
+  );
+}
+
+.night {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(71, 69, 65, 1) 68%,
+    rgb(125, 124, 122) 100%
   );
 }
 
