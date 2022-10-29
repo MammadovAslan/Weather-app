@@ -18,7 +18,7 @@ const resolve = (position) => {
       <main>
       <div id="temp">
       <p class="degrees">${`${Math.floor(
-        300 - resp.main.temp
+        304 - resp.main.temp
       )} <sup style="font-size:45px">o</sup>`}</p>
         </div>
         <div id="location">
