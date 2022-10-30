@@ -28,9 +28,9 @@ const resolve = (position) => {
         <aside>
         <div id="details">
         <h1>Details</h1>
-        <p class="wind">${`Wind : ${resp.wind.speed} m/s`}</p>
-        <p class="clouds">${`Cloudy : ${resp.clouds.all}%`}</p>
-        <p class="humidity">Humidity : ${resp.main.humidity}</p>
+        <p class="wind">Wind : ${resp.wind.speed} m/s</p>
+        <p class="clouds">Cloudy : ${resp.clouds.all}%</p>
+        <p class="humidity">Humidity : ${resp.main.humidity}%</p>
         <figure>
         <img src=http://openweathermap.org/img/w/${
           resp["weather"][0]["icon"]
